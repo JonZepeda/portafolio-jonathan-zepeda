@@ -24,3 +24,16 @@ document.getElementById('contact-form').addEventListener('submit', function(e){
   email.value = '';
   message.value = '';
 });
+
+
+//Scroll suave al hacer click en los enlaces del nanbar
+document.querySelectorALL('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if(target){
+      target.scrollIntoView({behavior: 'smooth'});
+
+    }
+  });
+});
