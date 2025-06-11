@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "App de Tareas",
+    "descripcion": "Aplicación para gestionar tareas con JAvaScript y LocalStorage",
+    "enlace": "https://github.com/JonZepeda/app-tareas"
+  },
+  {
+    "titulo": "Landig Page Bootstrap",
+    "descipcion": "Diseño moderno y responsive para un sitio empresarial",
+    "enlace": "https://jz-landing.netlify.app"
+  }
+]
